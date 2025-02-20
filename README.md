@@ -1,6 +1,6 @@
-# 🚀 SAP Learning Roadmap
+# 🚀 SAP & SAP Logon 770 Learning Roadmap
 
-Bem-vindo ao **SAP Learning Roadmap**! Este guia foi criado para ajudar você a aprender **SAP** de forma estruturada, passando do nível iniciante ao especialista.
+Bem-vindo ao **SAP & SAP Logon 770 Learning Roadmap**! Este guia foi criado para ajudá-lo a aprender **SAP** e **SAP Logon 770** de maneira estruturada, passando do nível iniciante ao especialista.
 
 ## 📊 Roadmap Overview
 
@@ -10,6 +10,38 @@ O roadmap é dividido em 4 níveis:
 2. **🟡 Nível Intermediário**  
 3. **🔵 Nível Avançado**  
 4. **🔴 Nível Expert**  
+
+```mermaid
+graph TD;
+    A[🟢 Nível Iniciante] --> B[Introdução ao SAP];
+    A --> C[SAP GUI e Navegação];
+    A --> D[Módulos do SAP];
+    A --> E[T-Codes e Transações];
+    A --> F[Instalação e Configuração do SAP Logon 770];
+    
+    B & C & D & E & F --> G[🟡 Nível Intermediário];
+    G --> H[SAP ERP vs SAP S/4HANA];
+    G --> I[Relatórios e Consultas];
+    G --> J[Integração entre Módulos];
+    G --> K[SAP Fiori e UX Moderna];
+    G --> L[Configuração de Conexão no SAP Logon 770];
+    G --> M[Gerenciamento de Perfis e Preferências];
+    
+    H & I & J & K & L & M --> N[🔵 Nível Avançado];
+    N --> O[Customização do SAP (IMG & SPRO)];
+    N --> P[ABAP - Linguagem de Programação];
+    N --> Q[Integração SAP com Outras Ferramentas];
+    N --> R[Automação e RPA];
+    N --> S[Uso Avançado de T-Codes no SAP Logon 770];
+    N --> T[Análise de Logs e Depuração];
+    
+    O & P & Q & R & S & T --> U[🔴 Nível Expert];
+    U --> V[SAP S/4HANA Avançado];
+    U --> W[Administração e Basis];
+    U --> X[Big Data e SAP HANA];
+    U --> Y[Certificação SAP];
+    U --> Z[Administração Avançada no SAP Logon 770];
+```
 
 ---
 
@@ -31,16 +63,20 @@ O roadmap é dividido em 4 níveis:
   Códigos de transação essenciais para trabalhar no SAP.  
   [Lista de T-Codes SAP](https://wiki.scn.sap.com/wiki/display/ABAP/List+of+SAP+Transaction+Codes)
 
+- **Instalação e Configuração do SAP Logon 770**  
+  Como baixar, instalar e configurar o SAP Logon 770.  
+  [Guia de Instalação](https://support.sap.com/en/my-support/software-downloads.html)
+
 ---
 
 ## 🟡 Nível Intermediário
 
 - **SAP ERP vs SAP S/4HANA**  
-  Entendendo as diferenças entre o SAP ERP tradicional e a nova versão S/4HANA.  
+  Diferenças entre as versões e seus impactos.  
   [Comparando SAP ERP e S/4HANA](https://www.sap.com/products/erp.html)
 
 - **Relatórios e Consultas no SAP**  
-  Como extrair relatórios de dados utilizando consultas padrão e customizadas.  
+  Como extrair relatórios utilizando ferramentas internas do SAP.  
   [Criando Relatórios no SAP](https://help.sap.com/)
 
 - **Integração entre Módulos**  
@@ -48,8 +84,16 @@ O roadmap é dividido em 4 níveis:
   [Integração SAP MM, SD e FI](https://blogs.sap.com/)
 
 - **SAP Fiori e UX Moderna**  
-  Uso do SAP Fiori para uma experiência mais intuitiva e responsiva.  
+  Uso do SAP Fiori para uma experiência intuitiva e responsiva.  
   [Introdução ao SAP Fiori](https://www.sap.com/products/technology-platform/fiori.html)
+
+- **Configuração de Conexão no SAP Logon 770**  
+  Criando e gerenciando conexões no SAP Logon 770.  
+  [Configuração de Conexões](https://help.sap.com/)
+
+- **Gerenciamento de Perfis e Preferências**  
+  Personalização do ambiente de trabalho no SAP Logon.  
+  [Customização do SAP GUI](https://blogs.sap.com/)
 
 ---
 
@@ -103,32 +147,6 @@ Se você deseja contribuir com este roadmap, siga os passos abaixo:
 4. **Envie um pull request** para revisão.
 
 ---
-
-```mermaid
-graph TD;
-    A[🟢 Nível Iniciante] --> B[O que é o SAP Logon 770?];
-    A --> C[Instalação e Configuração];
-    A --> D[Primeiros Passos];
-    A --> E[Uso de T-Codes];
-    
-    B & C & D & E --> F[🟡 Nível Intermediário];
-    F --> G[Configuração de Conexão SAP];
-    F --> H[Gerenciamento de Perfis e Preferências];
-    F --> I[Exportação e Importação de Dados];
-    F --> J[Atalhos e Automação];
-    
-    G & H & I & J --> K[🔵 Nível Avançado];
-    K --> L[Uso Avançado de T-Codes];
-    K --> M[Análise de Logs e Depuração];
-    K --> N[Uso de SAP Scripting API];
-    K --> O[Segurança e Administração de Usuários];
-    
-    L & M & N & O --> P[🔴 Nível Expert];
-    P --> Q[Integração com Ferramentas Externas];
-    P --> R[Monitoramento de Desempenho e Otimização];
-    P --> S[Administração Avançada (SAP Basis)];
-    P --> T[Preparo para Certificação SAP];
-```
 ---
 **Bons estudos e sucesso na sua jornada SAP!** 🚀
 
