@@ -28,7 +28,7 @@ graph TD;
     G --> M[Gerenciamento de Perfis e Preferências];
     
     H & I & J & K & L & M --> N[🔵 Nível Avançado];
-    N --> O[Customização do SAP (IMG & SPRO)];
+    N --> O[Customização do SAP - IMG e SPRO];
     N --> P[ABAP - Linguagem de Programação];
     N --> Q[Integração SAP com Outras Ferramentas];
     N --> R[Automação e RPA];
@@ -99,7 +99,7 @@ graph TD;
 
 ## 🔵 Nível Avançado
 
-- **Customização do SAP (IMG & SPRO)**  
+- **Customização do SAP - IMG e SPRO**  
   Configuração do sistema através do Implementation Guide (IMG).  
   [Guia de Implementação SAP](https://help.sap.com/)
 
@@ -149,6 +149,4 @@ Se você deseja contribuir com este roadmap, siga os passos abaixo:
 ---
 ---
 **Bons estudos e sucesso na sua jornada SAP!** 🚀
-
-
 
